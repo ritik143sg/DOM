@@ -3,7 +3,7 @@ const fruits = document.getElementsByTagName("li");
 
 for (let i = 0; i < fruits.length; i++) {
   fruits[i].style.fontStyle = "italic";
-  if (i == 4) {
+  if (fruits[i].innerHTML == "Mango") {
     fruits[i].style.color = "blue";
   }
 }
